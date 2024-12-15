@@ -1,10 +1,5 @@
-# Essential HashiCorp Vault Commands
 
-This document provides a comprehensive list of essential HashiCorp Vault commands for setup, management, and day-to-day usage. These commands are grouped based on their functionalities.
-
----
-
-## **Setting Up HashiCorp Vault for Storing Secrets and Integrating with CI/CD Pipelines**
+# **Setting Up HashiCorp Vault for Storing Secrets and Integrating with CI/CD Pipelines**
 
 ### **Step 1: Install HashiCorp Vault**
 

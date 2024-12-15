@@ -205,7 +205,18 @@ Create a policy file, e.g., `aws-policy.hcl`:
        }
    }
    ```
+## **Step 7: Secure Vault Configuration**
 
+1. **Restrict Unseal Key Access:**
+Use tools like AWS KMS or HSM to store unseal keys securely.
+2. **Enable Audit Logs:**
+    
+    ```bash
+    vault audit enable file file_path=/var/log/vault_audit.log
+    ```
+    
+3. **Rotate Secrets:**
+Periodically rotate secrets for added security.
 ---
 
 ## **Conclusion**
